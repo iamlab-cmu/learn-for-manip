@@ -12,3 +12,5 @@ sudo rm /usr/share/unity-webapps/userscripts/unity-webapps-amazon/manifest.json
 # changing bashrc to color terminal
 # changing bashrc history to 20000
 
+# Installing vscode
+
