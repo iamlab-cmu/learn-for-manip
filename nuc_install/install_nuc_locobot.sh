@@ -1,7 +1,12 @@
+# Update
+sudo apt update
+sudo apt upgrade -y
+
 # Useful utils
-sudo apt install xclip
-sudo apt install htop
-sudo apt install gparted
+sudo apt install git -y
+sudo apt install xclip -y
+sudo apt install htop -y
+sudo apt install gparted -y
 
 # Remove Amazon shortcut
 sudo rm /usr/share/applications/ubuntu-amazon-default.desktop
@@ -13,4 +18,3 @@ sudo rm /usr/share/unity-webapps/userscripts/unity-webapps-amazon/manifest.json
 # changing bashrc history to 20000
 
 # Installing vscode
-
