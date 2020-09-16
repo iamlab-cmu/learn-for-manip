@@ -4,6 +4,7 @@ sudo apt upgrade -y
 
 # Useful utils
 sudo apt install git -y
+sudo apt install curl -y
 sudo apt install xclip -y
 sudo apt install htop -y
 sudo apt install gparted -y
