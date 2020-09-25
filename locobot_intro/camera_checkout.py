@@ -26,7 +26,12 @@ def camera_checkout(input_args):
     print('Camera state [pan, tilt]: {}'.format(robot.camera.state))
     show_camera_output(robot)
 
-    # Should be poinnted to the left and down
+    # Should be center and pointed down (viewing the arm)
+    robot.camera.set_pan_tilt(0., 0.5)
+    print('Camera state [pan, tilt]: {}'.format(robot.camera.state))
+    show_camera_output(robot)
+
+    # Should be pointed to the left and down
     robot.camera.set_pan_tilt(1., 0.3)
     print('Camera state [pan, tilt]: {}'.format(robot.camera.state))
     show_camera_output(robot)
